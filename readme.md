@@ -1,6 +1,6 @@
 # array-union [![Build Status](https://travis-ci.org/sindresorhus/array-union.svg?branch=master)](https://travis-ci.org/sindresorhus/array-union)
 
-> Creates an array of unique values, in order, from the input arrays
+> Create an array of unique values, in order, from the input arrays
 
 
 ## Install
