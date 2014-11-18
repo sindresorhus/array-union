@@ -31,7 +31,7 @@
     "merge"
   ],
   "dependencies": {
-    "array-uniq": "^1.0.0"
+    "array-uniq": "^1.0.1"
   },
   "devDependencies": {
     "mocha": "*"
