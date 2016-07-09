@@ -18,8 +18,14 @@ const arrayUnion = require('array-union');
 arrayUnion([1, 1, 2, 3], [2, 3]);
 //=> [1, 2, 3]
 
-arrayUnion(['foo', 'foo', 'bar'], ['foo']);
+arrayUnion(['foo', 'foo', 'bar']);
 //=> ['foo', 'bar']
+
+arrayUnion(['cat', 'unicorn', 'bear'], ['unicorn', 'rainbow']);
+//=> ['cat', 'unicorn', 'bear', 'rainbow']
+
+arrayUnion(['cat', 'unicorn'], ['bear', 'unicorn'], ['dog', 'rainbow', 'rainbow']);
+//=> ['cat', 'unicorn', 'bear', 'dog', 'rainbow']
 ```
 
 
