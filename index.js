@@ -1,6 +1,5 @@
 'use strict';
-const arrayUniq = require('array-uniq');
 
 module.exports = function (...args) {
-	return arrayUniq([].concat(...args));
+	return [...new Set([].concat(...args))];
 };
