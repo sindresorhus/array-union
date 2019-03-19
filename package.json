@@ -34,7 +34,7 @@
     "array-uniq": "^1.0.1"
   },
   "devDependencies": {
-    "ava": "*",
-    "xo": "*"
+    "ava": "^1.2.1",
+    "xo": "^0.24.0"
   }
 }
