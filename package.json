@@ -1,38 +1,36 @@
 {
-  "name": "array-union",
-  "version": "1.0.2",
-  "description": "Create an array of unique values, in order, from the input arrays",
-  "license": "MIT",
-  "repository": "sindresorhus/array-union",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=6.0"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "array",
-    "arr",
-    "set",
-    "uniq",
-    "unique",
-    "duplicate",
-    "remove",
-    "union",
-    "combine",
-    "merge"
-  ],
-  "dependencies": {},
-  "devDependencies": {
-    "ava": "^1.2.1",
-    "xo": "^0.24.0"
-  }
+	"name": "array-union",
+	"version": "1.0.2",
+	"description": "Create an array of unique values, in order, from the input arrays",
+	"license": "MIT",
+	"repository": "sindresorhus/array-union",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"array",
+		"set",
+		"uniq",
+		"unique",
+		"duplicate",
+		"remove",
+		"union",
+		"combine",
+		"merge"
+	],
+	"devDependencies": {
+		"ava": "^1.3.1",
+		"xo": "^0.24.0"
+	}
 }

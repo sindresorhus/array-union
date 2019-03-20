@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = function (...args) {
-	return [...new Set([].concat(...args))];
+module.exports = (...arguments_) => {
+	return [...new Set([].concat(...arguments_))];
 };

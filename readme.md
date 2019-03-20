@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save array-union
+$ npm install array-union
 ```
 
 
