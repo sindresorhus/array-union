@@ -21,11 +21,11 @@ arrayUnion([1, 1, 2, 3], [2, 3]);
 arrayUnion(['foo', 'foo', 'bar']);
 //=> ['foo', 'bar']
 
-arrayUnion(['cat', 'unicorn', 'bear'], ['unicorn', 'rainbow']);
-//=> ['cat', 'unicorn', 'bear', 'rainbow']
+arrayUnion(['🐱', '🦄', '🐻'], ['🦄', '🌈']);
+//=> ['🐱', '🦄', '🐻', '🌈']
 
-arrayUnion(['cat', 'unicorn'], ['bear', 'unicorn'], ['dog', 'rainbow', 'rainbow']);
-//=> ['cat', 'unicorn', 'bear', 'dog', 'rainbow']
+arrayUnion(['🐱', '🦄'], ['🐻', '🦄'], ['🐶', '🌈', '🌈']);
+//=> ['🐱', '🦄', '🐻', '🐶', '🌈']
 ```
 
 
