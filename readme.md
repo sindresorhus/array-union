@@ -2,18 +2,16 @@
 
 > Create an array of unique values, in order, from the input arrays
 
-
 ## Install
 
 ```
 $ npm install array-union
 ```
 
-
 ## Usage
 
 ```js
-const arrayUnion = require('array-union');
+import arrayUnion from 'array-union';
 
 arrayUnion([1, 1, 2, 3], [2, 3]);
 //=> [1, 2, 3]
@@ -27,7 +25,6 @@ arrayUnion(['🐱', '🦄', '🐻'], ['🦄', '🌈']);
 arrayUnion(['🐱', '🦄'], ['🐻', '🦄'], ['🐶', '🌈', '🌈']);
 //=> ['🐱', '🦄', '🐻', '🐶', '🌈']
 ```
-
 
 ---
 

@@ -1,5 +1,5 @@
 import test from 'ava';
-import arrayUnion from '.';
+import arrayUnion from './index.js';
 
 test('main', t => {
 	t.deepEqual(arrayUnion([1, 2, 2, 3, 1, 2, 4], [1, 2, 3, 6, 7]), [1, 2, 3, 4, 6, 7]);
