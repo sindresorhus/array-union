@@ -1,6 +1,6 @@
 {
 	"name": "array-union",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"description": "Create an array of unique values, in order, from the input arrays",
 	"license": "MIT",
 	"repository": "sindresorhus/array-union",
